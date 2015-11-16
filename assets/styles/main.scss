@@ -1,0 +1,41 @@
+@import "common/_variables";
+@import "_bootstrap.scss";
+
+// Automatically injected Bower dependencies via wiredep (never manually edit this block)
+// bower:scss
+// endbower
+
+@import "common/_global";
+@import "components/_buttons";
+@import "components/_comments";
+@import "components/_forms";
+@import "components/_grid";
+@import "components/_wp-classes";
+@import "layouts/_header";
+@import "layouts/_sidebar";
+@import "layouts/_footer";
+@import "layouts/_pages";
+@import "layouts/_posts";
+@import "layouts/_tinymce";
+
+
+// My own custom styles
+
+.acf-map {
+	width: 100%;
+	height: 400px;
+	border: #ccc solid 1px;
+	margin: 20px 0;
+}
+
+/* fixes potential theme css conflict */
+.acf-map img {
+   max-width: inherit !important;
+}
+
+.icl-en:lang(en-US) { 
+    display: none;
+}
+.icl-fr:lang(fr-FR) { 
+    display: none;
+}

@@ -1,0 +1,37 @@
+Conditional tags
+http://codex.wordpress.org/Conditional_Tags
+
+is_home() <- When the main blog page is being displayed.
+is_front_page() <- When the front of the site is displayed, whether it is posts or a Page.
+
+is_single() || is_single('slug') || is_single('id') || is_single(array('id', 'slug', ...))
+is_page() || is_page('slug') || is_page('id') || is_page(array('id', 'slug', ...))
+
+
+is_page_template('template-custom.php')
+
+is_category()
+is_tag()
+is_tax() <- taxonomy
+has_term()
+
+is_author()
+
+is_date() || is_year() ...
+
+is_singular() <- Returns true for any is_single(), is_page(), or is_attachment().
+
+is_search()
+is_404()
+
+post_type_exists( $post_type ) 
+
+has_excerpt()
+has_post_thumbnail( $post_id )
+
+is_admin() <- When the Dashboard or the administration panels are being displayed.
+
+
+
+
+Helper PHP function can be added to lib/extras.php

@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "main.js": {
+      "vendor": [
+        "assets/scripts/vendor/gmaps.js"
+      ],
+      "files": [
+        "scripts/main.js"
+      ],
+      "main": true
+    },
+
+    "main.css": {
+      "vendor": [
+      ],
+      "files": [
+        "styles/main.scss"
+      ],
+      "main": true
+    },
+
+    "jquery.js": {
+      "bower": ["jquery"]
+    },
+
+    "vendor/alert.js": {
+      "vendor": [
+        "assets/scripts/vendor/alert.js"
+      ]
+    }
+
+  },
+  "config": {
+    "devUrl": "http://localhost/solidwebmedia/wordpress-original-v2/"
+  }
+}
